@@ -1,5 +1,7 @@
 # Signal Protocol Example
 
+![Demo GIF](./demo.gif)
+
 This is a repository that contains client and server implementations of the [Signal Protocol](https://signal.org/docs/).
 Because there are no useful and working examples online that I could find.
 
