@@ -44,7 +44,7 @@ app.get('/keys/:username', function(req, res, next){
 
     res.status(200).json(keys[req.params.username]).end();
 
-    // In a real world application, the fetched preKey
+    // In a real world application, the fetched preKey would be removed from the database.
 });
 
 app.ws('/', function(_ws, req) {

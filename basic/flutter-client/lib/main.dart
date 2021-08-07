@@ -112,9 +112,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // Keys
     var identityKey = KeyHelper.generateIdentityKeyPair(); // Long term key
-    var preKeys = KeyHelper.generatePreKeys(0, 5); // Medium term key
     var signedPreKey =
-        KeyHelper.generateSignedPreKey(identityKey, 0); // One time key
+        KeyHelper.generateSignedPreKey(identityKey, 0); // Medium term key
+    var preKeys = KeyHelper.generatePreKeys(0, 5); // One time key
 
     // Store keys
     for (var p in preKeys) {
